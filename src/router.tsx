@@ -4,7 +4,7 @@ import Products, { loader as productsLoader, action as updateAvailabilityAction 
 import NewProduct, { action as newProductAction } from './views/NewProduct'
 import EditProduct, { loader as editProductLoader, action as editProductAction } from './views/EditProduct'
 import { action as deleteProductAction } from './components/ProductDetails'
-import HydratateFallback from './components/hydratateFallback'
+import HydratateFallback from './components/HydratateFallback'
 
 
 export const router = createBrowserRouter([
